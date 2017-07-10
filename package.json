@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build-webpack": "webpack commonjs/js/main.js commonjs/dist/bundle.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "rollup": "^0.45.0"
+    "rollup": "^0.45.0",
+    "webpack": "^3.1.0"
   }
 }
