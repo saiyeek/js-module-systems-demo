@@ -1,0 +1,29 @@
+div.main {
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 200px;
+    color: #5e5e5e;
+    background-color: #f3f3f3;
+    margin: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    border: solid green 1px;
+    border-radius: 2px;
+    height: 200px;
+    width: 200px;
+}
+
+ul li:hover {
+  background-color: #ADD8E6;
+}
